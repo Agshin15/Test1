@@ -1,0 +1,17 @@
+                          Misal 3
+var z=15 , y=14 , x=78
+
+z++<=16 && (x-=5)>72 && (z+x)==88
+
+++ oldugu kimi qalir amma sonra 1 vahid artirir
+<= kichik ve ya beraber oldugunu yoxlayir
+-= verilen qeder cixib ededi cavaba deyishir 
+== beraberliyini yoxlayir
+> boyuk olmagin yoxlayir
+
+1) z++<=16 Burada 15<=16 dogru (true) berabersizlik alinir. z=16 olur
+2) (x-=5)>72 Burada 78-5=73 ve 73>72 dogru (true) berabersizlik alinir. x=73
+3) (z+x)==88 Burada 16+73=89 ve 89==88 yanlish (false) beraberlik alinir.
+4) [ true && true && false ] eyni funksiya oldugundan soldan saga hesablayiriq [true && false] ve yekunda [false].
+
+Cavab: false

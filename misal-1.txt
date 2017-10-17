@@ -1,0 +1,15 @@
+                           MIsal 1
+var x=7
+
+x++%2>0 && ((x-=2*2)!=0)
+
+++ birinci oldugu kimi qalir sonrakilar ise 1-vahid artir
+% qaliqli bolmede qaligi gosterir 
+&& (ve elementidir)
+-= verilen qeder ededi azaldir
+!= operatorlarin eyniliyini yoxlayir
+
+1) x++%2>0   Burada 7-ni 2-ye boldukde qaliq 1 olur. ve 1>0 dogru (true) berabersizlikdir.Ve x=8
+2) ((x-=2*2)!=0)  Burada 8-4=4 o da 4!=0 ikiside reqem oldugundan cavab dogru (true) olur.
+3) true && true = true
+Cavab: true

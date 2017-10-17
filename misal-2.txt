@@ -1,0 +1,16 @@
+                      Misal 2
+var y=200
+
+((y*=2)>0 || y++>0) && y==201
+
+*= vurub qiymetin deyishir 
+|| (ve ya)
+++ hemin yerde deyishmir sonrakilarda ededi 1 vahid artirir 
+== beraberliyini yoxlayir
+
+1) (y*=2)>0 Burada 200*2=400 ve 400<0 olur , yeni dogru (true) berabersizlik . y=400 olur
+2) y++>0 Burada 400>0 olur , yeni dogru (true) berabersizlik . y=401 olur
+3) y==201 Burada 401==201 yanlish (false) beraberdil
+4) [(true || true) && false] ilk olaraq moterizenin ichi hell olunur [true && false] buradan da cavab [false]
+
+Cavab: false
