@@ -1,0 +1,29 @@
+.div1{
+    border: 3px solid gray;
+    background: darkslategray;
+    height: 60px;
+
+
+}
+.div1 a{
+    margin-left: 25px;
+    color: white;
+}
+.div1 .r1{
+    margin-left: 300px;
+}
+a{
+    line-height: 15px;
+    text-decoration: none;
+}
+.div1 .fa{
+    color: white;
+    font-size: 30px; 
+    padding-top: 10px;   
+} 
+.div1 .fa-globe{     
+    margin-left: 40px;
+}
+.div1 .fa-search{     
+    margin-left: 20px;
+}
