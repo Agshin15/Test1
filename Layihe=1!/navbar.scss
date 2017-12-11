@@ -446,15 +446,17 @@ $greencolor: #69B417;
     & p {
         color: $pcolor;
     }
-    // & .noneactive {
-    //     display: none;
-    // }
+    & .tab2, & .tab3, & .tab4, & .tab5 {
+        display: none;
+    }
+ 
     & .margintop {
         margin-top: 20px;
         & .marginleft {
             margin-left: 25%;
             & ul, & li {
                 display: inline;
+                text-align: center;
                 & a {
                     border-color: #eee;
                     border: 1px solid #eee;
@@ -465,7 +467,6 @@ $greencolor: #69B417;
                     height: 60px;
                     line-height: 60px;
                     display: inline-block;
-                    padding-left: 10px;
                     margin-right: 40px;
                     color: $pcolor;
                 }
@@ -478,8 +479,9 @@ $greencolor: #69B417;
                     margin: 0 auto;
                     width: 42px;
                     height: 1px;
-                    background-color: #eaeaea;
+                    background-color: #eee;
                     left: 48px;
+                 
                 }
                 & a:hover {
                     background: #eee;
@@ -490,12 +492,17 @@ $greencolor: #69B417;
                     color: white;                  
                 }
             }
+            li:last-child{
+                a:after{
+                    display: none;
+                }
+            }
 
         }
+     
     }
    
 }
-
 .WhatWeDo {
     height: 500px;
     & h1 {
@@ -650,3 +657,129 @@ $greencolor: #69B417;
     transition: 2s;
     display: none;
 }
+.slider {
+    height: 400px;
+    text-align: center;
+    & .slick-slider {
+        width: 35%;
+        margin: 0 auto;
+        outline: none;
+    }
+    & h1 {
+        color: $pcolor;
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    & h2, & h3 {
+        color: $pcolor;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+    .slick-dots li button:before {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .slick-slide{
+        outline: none;
+    }
+}
+
+.Logos {
+    height: 300px;
+    text-align: center;
+    .container {
+        border-bottom: 1px solid $pcolor;
+    }
+    .marginbottom {
+        margin-bottom: 30px;
+    }
+    p {
+        text-align: center;
+        color: $pcolor;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    & ul, & li{
+        display: inline;
+        margin-left: 40px;
+        margin-right: 46px;
+    }
+}
+.input {
+    height: 500px;
+    margin-top: -50px;
+    .container {
+        border-bottom: 1px solid $pcolor;
+    }
+    .col-md-8 {
+        margin-left: 180px;
+        text-align: center;
+        & h2 {
+            margin-bottom: 30px;
+            color: $textcolor;
+        }
+        & h4, & p {
+            color: $pcolor;
+            font-weight: bold;        
+        }
+        a {
+         color: $greencolor;
+        }
+        .col-md-6 {
+            margin: 0 auto;
+            margin-top: 20px;
+            input, button {
+                height: 50px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+.footer {
+    height: 40px;
+    margin-top: -200px;
+    & ul, & li {
+        display: inline;
+        a {
+            color: $pcolor;
+            padding-right: 10px;
+           
+        }
+    }
+    & p {
+        color: $pcolor;
+        margin-top: 5px;
+    }
+    .right {
+        ul {
+            float: right;
+            a {
+                border: 1px solid $pcolor;
+                padding: 8px;
+                border-radius: 100%;
+                margin-left: 5px;
+                i {
+                    padding-left: 2px;
+                    color: $pcolor;
+                }
+            }
+        }
+        a:hover {
+            background: $pcolor;
+            & i {
+                color: white;
+                
+            }
+        }
+    }
+  
+}
+
